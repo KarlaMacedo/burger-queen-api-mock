@@ -38,7 +38,7 @@ GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTcxNzY5MiwiZXhwIjoxNjg5NzIxMjkyLCJzdWIiOiIyIn0.OwCl0yWQ06-I2CTGZzgiTNq77rzWU3823JwHAwVjZYA
 
-// VER PEDIDOS
+// VER PEDIDOS Hechos
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTg3MDc2MCwiZXhwIjoxNjg5ODc0MzYwLCJzdWIiOiIyIn0.UP7bxjMhD8sHBY_V0LQlKro7yxOH00flVxUyoOfYEXs
