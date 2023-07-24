@@ -102,6 +102,18 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "iamawaiter@mail.com",
+      "password": "$2a$10$ANOkBU32T4FF9IbizyLqaemJ8E9Z7LRCwvbviTEb/HlRpevfrBCGe",
+      "role": "waiter",
+      "id": 3
+    },
+    {
+      "email": "iamachef@mail.com",
+      "password": "$2a$10$/qNUsgRFLYobfGR16KaObubRg6ISyB.wNXNXjV3ikEQmbtS9t6V96",
+      "role": "chef",
+      "id": 4
     }
   ]
 }

@@ -6,17 +6,38 @@ content-type: application/json
     "password": "123456"
 }
 
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDIyNTYyOCwiZXhwIjoxNjkwMjI5MjI4LCJzdWIiOiIyIn0.sz3lGlK55drtPU-x4air0gGQBiMGeRZTibIFOeKUywc
+
+{
+    "email": "iamawaiter@mail.com",
+    "password": "123456",
+    "role": "waiter"
+}
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDIyNTYyOCwiZXhwIjoxNjkwMjI5MjI4LCJzdWIiOiIyIn0.sz3lGlK55drtPU-x4air0gGQBiMGeRZTibIFOeKUywc
+
+{
+    "email": "iamachef@mail.com",
+    "password": "123456",
+    "role": "chef"
+}
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDIyNTE5NCwiZXhwIjoxNjkwMjI4Nzk0LCJzdWIiOiIyIn0.Yb95nYHwRRwDAyIxYVX2AGB9xXMBla4YzgxDY34Yv_w
+
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTcxNzY5MiwiZXhwIjoxNjg5NzIxMjkyLCJzdWIiOiIyIn0.OwCl0yWQ06-I2CTGZzgiTNq77rzWU3823JwHAwVjZYA
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTg3MDc2MCwiZXhwIjoxNjg5ODc0MzYwLCJzdWIiOiIyIn0.UP7bxjMhD8sHBY_V0LQlKro7yxOH00flVxUyoOfYEXs
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json
