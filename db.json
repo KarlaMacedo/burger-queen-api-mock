@@ -11,7 +11,7 @@
             "id": 1,
             "name": "Sandwich de jamón y queso",
             "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/sandw.png?raw=true",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -22,7 +22,7 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -42,7 +42,7 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -53,7 +53,7 @@
             "id": 3,
             "name": "Agua 500ml",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/agua.png?raw=true",
             "type": "Almuerzo",
             "dateEntry": "2022-03-05 15:14:10"
           }
