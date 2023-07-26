@@ -4,6 +4,7 @@
       "id": 1,
       "userId": 3,
       "client": "Jude Milhon",
+      "table": 1,
       "products": [
         {
           "qty": 1,
@@ -35,6 +36,7 @@
       "id": 2,
       "userId": 3,
       "client": "Katie Bouman",
+      "table": 2,
       "products": [
         {
           "qty": 2,
@@ -67,6 +69,7 @@
       "id": 2,
       "userId": 1,
       "client": "Katie Bouman",
+      "table": 2,
       "products": [
         {
           "qty": 2,
@@ -120,7 +123,64 @@
       "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/agua.png?raw=true",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/cafeLeche.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Jugo de frutas natural",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/jug.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa simple",
+      "price": 1000,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/sencill.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Hamburguesa doble",
+      "price": 1500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/dobl.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Papas fritas",
+      "price": 500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/paps.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 9,
+      "name": "Aros de cebolla",
+      "price": 500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/ceboll.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Bebida/refresco 500ml",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/refr.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
     }
+    
   ],
   "users": [
     {
