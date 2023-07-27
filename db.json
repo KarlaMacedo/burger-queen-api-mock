@@ -104,7 +104,7 @@
       "table": 2,
       "products": [
         {
-          "qty": 2,
+          "qty": 3,
           "product": {
             "id": 2,
             "name": "Café americano",
@@ -212,7 +212,6 @@
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     }
-    
   ],
   "users": [
     {
