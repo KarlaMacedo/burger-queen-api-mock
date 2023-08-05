@@ -1,9 +1,42 @@
 {
   "orders": [
     {
+      "id": 0,
+      "userId": 3,
+      "client": "Maria",
+      "table": 4,
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 1000,
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/sandw.png?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 500,
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "En preparación",
+      "dateEntry": "2022-03-05 15:00"
+    },
+    {
       "id": 1,
-      "userId": 1,
+      "userId": 3,
       "client": "Jude Milhon",
+      "table": 1,
       "products": [
         {
           "qty": 1,
@@ -11,7 +44,7 @@
             "id": 1,
             "name": "Sandwich de jamón y queso",
             "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/sandw.png?raw=true",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -22,22 +55,56 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
       ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "status": "Listo en barra",
+      "dateEntry": "2022-03-05 15:00"
     },
     {
       "id": 2,
-      "userId": 2,
+      "userId": 3,
       "client": "Katie Bouman",
+      "table": 2,
       "products": [
         {
           "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 500,
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 3,
+            "name": "Agua 500ml",
+            "price": 500,
+            "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/agua.png?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "Entregado",
+      "dateEntry": "2022-03-05 15:00",
+      "dateProcessed": "2022-03-05 16:00"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "client": "Katie Bouman",
+      "table": 2,
+      "products": [
+        {
+          "qty": 3,
           "product": {
             "id": 2,
             "name": "Café americano",
@@ -59,9 +126,169 @@
           }
         }
       ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
+      "status": "Entregado",
+      "dateEntry": "2022-03-05 15:00",
       "dateProcessed": "2022-03-05 16:00"
+    },
+    {
+      "userId": "3",
+      "client": "cliente1",
+      "table": "1",
+      "products": [],
+      "status": "En preparación",
+      "id": 3
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 4
+    },
+    {
+      "userId": "3",
+      "client": "Pepito",
+      "table": "4",
+      "products": [],
+      "status": "En preparación",
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 7
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 8
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 9
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 10
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 11
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 12
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 13
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 14
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 15
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 16
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 17
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 18
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 19
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 20
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 21
+    },
+    {
+      "userId": "3",
+      "client": "",
+      "table": "",
+      "products": [],
+      "status": "En preparación",
+      "id": 22
     }
   ],
   "products": [
@@ -69,7 +296,7 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/sandw.png?raw=true",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -77,7 +304,7 @@
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/cafe.png?raw=true",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -85,7 +312,63 @@
       "id": 3,
       "name": "Agua 500ml",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-orders/src/assets/Images/agua.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/cafeLeche.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Jugo de frutas natural",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/jug.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa simple",
+      "price": 1000,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/sencill.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Hamburguesa doble",
+      "price": 1500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/dobl.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Papas fritas",
+      "price": 500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-menu/src/assets/Images/paps.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 9,
+      "name": "Aros de cebolla",
+      "price": 500,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/ceboll.png?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Bebida/refresco 500ml",
+      "price": 700,
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/main/src/assets/Images/refr.png?raw=true",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     }
