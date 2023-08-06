@@ -352,7 +352,7 @@
       "id": 8,
       "name": "Papas fritas",
       "price": 500,
-      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-menu/src/assets/Images/paps.png",
+      "image": "https://github.com/KarlaMacedo/DEV007-burger-queen-api-client/blob/feature-menu/src/assets/Images/paps.png?raw=true",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
