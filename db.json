@@ -30,7 +30,7 @@
         }
       ],
       "status": "En preparación",
-      "dateEntry": "2022-03-05 15:00"
+      "dateEntry": "2022-03-05 15:00:00"
     },
     {
       "id": 1,
@@ -204,6 +204,12 @@
       "password": "$2a$10$/qNUsgRFLYobfGR16KaObubRg6ISyB.wNXNXjV3ikEQmbtS9t6V96",
       "role": "chef",
       "id": 4
+    },
+    {
+      "email": "iamaadmin@mail.com",
+      "password": "$2a$10$eirTUw11jXwrwCby4D42ROI2eyOXov8IBoVjRC9SQVR7pG5aOVIVi",
+      "role": "admin",
+      "id": 7
     }
   ]
 }

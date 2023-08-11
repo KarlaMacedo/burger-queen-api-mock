@@ -31,12 +31,36 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 // VER USUARIOS
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDIyNTE5NCwiZXhwIjoxNjkwMjI4Nzk0LCJzdWIiOiIyIn0.Yb95nYHwRRwDAyIxYVX2AGB9xXMBla4YzgxDY34Yv_w
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTYxMTA3NywiZXhwIjoxNjkxNjE0Njc3LCJzdWIiOiIyIn0.zQ02_UzwCJOCcMS56rPR26xz1H34vCdiF8e1OqDHf74
+
+// MODIFICAR USUARIO
+PATCH  http://localhost:8080/users/2 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTYyNDc0NiwiZXhwIjoxNjkxNjI4MzQ2LCJzdWIiOiIyIn0.Dcjv_uLYee3dwrEswZdolpKdSaRknVAgtQ6HCGj8xkA
+
+{
+    "email": "iamacheEEEf@mail.com",
+    "password": "12343hhh356",
+    "role": "chef"
+}
 
 // VER PRODUCTOS
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTcxNzY5MiwiZXhwIjoxNjg5NzIxMjkyLCJzdWIiOiIyIn0.OwCl0yWQ06-I2CTGZzgiTNq77rzWU3823JwHAwVjZYA
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTYzMTYyMywiZXhwIjoxNjkxNjM1MjIzLCJzdWIiOiIyIn0.Vjl_HA5nlhSr4kiTU5mjKdhC5dpm8OuILcLtn2h4Y-M
+
+// AGREGAR PRODUCTOS
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTcwMjYxNiwiZXhwIjoxNjkxNzA2MjE2LCJzdWIiOiIyIn0.sCK8TKW6t4mIjbE1r349ROnejkVnbrs7mdwe-w4b2NQ
+
+    {
+      "name": "Palomitas caramelo",
+      "price": 7000,
+      "image": "https://alsuper.online/products/413202_p.png",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    }
 
 // VER PEDIDOS Hechos
 GET http://localhost:8080/orders HTTP/1.1
